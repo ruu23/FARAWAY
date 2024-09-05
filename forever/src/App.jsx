@@ -1,23 +1,28 @@
-import Navbar from './Navbar';
-import { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import ContactUs from './pages/ContactUs'
+import Collection from './pages/Collection'
 
 function App() {
-  const [show, setShow] = useState(true);
   return (
-    <>
+    <div style={{ margin: '20px 137px'}}>
       <BrowserRouter>
-        <Navbar /> {}
+        <Navbar />
         <Routes>
-          <Route path='/about' element={<h1>This is the About page</h1>} />
-          <Route path='/home' element={<h1>This is the Home page</h1>} />
-          <Route path='/contact' element={<h1>This is the Contact page</h1>} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<ContactUs />} />
+          <Route path='/collection' element={<Collection />} />
+
         </Routes>
+        <Footer />
       </BrowserRouter>
-    </>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
