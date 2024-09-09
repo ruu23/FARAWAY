@@ -1,14 +1,13 @@
-
-import Banner from '../components/Banner'
+import Hero from '../components/Hero'
 import LastCollection from '../components/LastCollection'
-import Subscribe from '../components/Subscribe'
+import { Policy } from '../components/Subscribe'
 
 function Home() {
   return (
     <div>
-      <Banner />
+      <Hero />
       <LastCollection />
-      <Subscribe />
+      <Policy />
     </div>
   )
 }

@@ -1,38 +1,45 @@
-const Footer = () => {
+import{ assets } from '../assets/assets'
+import '../style/Footer.css'
+function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-6 px-4">
-      <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row justify-between">
-          <div className="mb-4 md:mb-0">
-            <h3 className="font-bold text-lg">FOREVER</h3>
-            <p className="text-sm mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <footer >
+      <div >
+        <div className='base'>
+
+          <div className='one'>
+            <img src={assets.logo} />
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry's standard dummy text ever since the<br/> 1500s, when an unknown printer took a galley of type and scrambled it to<br/> make a type specimen book.</p>
           </div>
-          <div className="flex flex-col md:flex-row space-x-4">
-            <div>
-              <h3 className="font-bold text-lg">Company</h3>
-              <ul className="mt-2">
-                <li><a href="#" className="text-sm hover:underline">Home</a></li>
-                <li><a href="#" className="text-sm hover:underline">About Us</a></li>
-                <li><a href="#" className="text-sm hover:underline">Delivery</a></li>
-                <li><a href="#" className="text-sm hover:underline">Privacy Policy</a></li>
+          
+            <div className='company'>
+              <h2>COMPANY</h2>
+              <ul >
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Privacy Policy</a></li>
               </ul>
             </div>
-            <div>
-              <h3 className="font-bold text-lg">Get in Touch</h3>
-              <ul className="mt-2">
-                <li><a href="tel:+1-000-000-0000" className="text-sm hover:underline">+1-000-000-0000</a></li>
-                <li><a href="mailto:greatstackdev@gmail.com" className="text-sm hover:underline">greatstackdev@gmail.com</a></li>
-                <li><a href="#" className="text-sm hover:underline">Instagram</a></li>
+
+            <div className='contact'>
+              <h2>GET IN TOUCH</h2>
+              <ul>
+                <li><a href="tel:+1-000-000-0000" >+1-000-000-0000</a></li>
+                <li><a href="mailto:greatstackdev@gmail.com">greatstackdev@gmail.com</a></li>
+                <li><a href="#">Instagram</a></li>
               </ul>
             </div>
-          </div>
+
         </div>
-        <div className="text-center mt-4">
-          <p className="text-sm">&copy; 2024 greatstack.dev. All Rights Reserved.</p>
+
+        <div className='rights'>
+          <p>Copyright 2024@ greatstack.dev - All Right Reserved.</p>
         </div>
+
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
+

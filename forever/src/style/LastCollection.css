@@ -1,0 +1,35 @@
+.main{
+  margin-top: 90px;
+  justify-content: center;
+  text-align: center;
+}
+.main h2{
+  font-size: 25pt;
+}
+.main h2 span {
+  color: gray;
+}
+.main p{
+  font-size: 17px;
+  
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 35px;
+  
+}
+.products div {
+  flex: 1 1 calc(20% - 20px);
+  box-sizing: border-box; 
+  cursor: pointer;
+}
+
+.products img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,31 @@
+*{
+  font-weight: 100;
+}
+footer{
+  margin-top: 50px;
+}
+.base{
+  display: flex;
+  justify-content: space-between;
+}
+.base h2{
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.base p, li{
+  color: gray;
+  font-size: 14px;
+}
+.one img{
+  max-width: 145px;
+  margin-bottom: 15px;
+}
+.rights{
+  border-top: solid rgba(138, 138, 138, 0.313) 1px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size:14px;
+  
+}

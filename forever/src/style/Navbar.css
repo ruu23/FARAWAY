@@ -1,3 +1,4 @@
+
 nav {
   display: flex;
   align-items: center;
@@ -10,19 +11,20 @@ nav {
 }
 
 .logo img {
-  height: 2.5rem; /* equivalent to Tailwind's h-12 */
+  height: 2.5rem; 
   width: auto;
   cursor: pointer;
+
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 1.25rem; /* equivalent to Tailwind's gap-5 */
+  gap: 1.25rem;
 }
 
 .nav-links li {
-  font-size: 0.89rem; /* equivalent to Tailwind's text-lg */
+  font-size: 0.89rem;
   text-transform: uppercase;
 }
 .item{
@@ -31,10 +33,12 @@ nav {
 .nav-links li a {
   color: black;
   position: relative;
-  padding: 0.25rem 0; /* equivalent to Tailwind's py-1 */
+  padding: 0.25rem 0;
+  color: #333333; /* Lighter gray color */
+  font-weight: 450; /* Bolder text */
 }
 
-.nav-links li a::after {
+.item ::after {
   content: '';
   display: block;
   width: 0;
@@ -51,25 +55,21 @@ nav {
 .admin-pannel button {
   border: 2px solid #d1d1d1;
   background-color: white;
-  color: black;
-  padding: 0.25rem 1rem; /* equivalent to Tailwind's py-1 px-4 */
-  border-radius: 9999px; /* equivalent to Tailwind's rounded-full */
+  padding: 5px 15px;
+  border-radius: 9999px; 
   cursor: pointer;
-  size: -.5;
 }
-
 .admin-pannel button:hover {
-  border-color: #808080; /* equivalent to Tailwind's hover:border-gray-500 */
+  border-color: #808080;
 }
 
 .icons {
   display: flex;
-  align-items: center;
-  gap: 1.25rem; /* equivalent to Tailwind's gap-5 */
+  justify-content: space-between;
+  gap: 1.3em;
 }
-
-.icons img {
-  height: 1.5rem; /* equivalent to Tailwind's h-6 */
-  width: 1.3rem; /* equivalent to Tailwind's w-6 */
+.icons img{
   cursor: pointer;
+  max-height: 22px;
+  max-width: 25px;
 }

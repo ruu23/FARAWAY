@@ -1,13 +1,14 @@
-import Subscribe from '../components/Subscribe';
-import contactUs from '../images/contact_img.png'
+import { assets } from '../assets/assets'
+import { Subscribe } from '../components/Subscribe'
+
 function ContactUs() {
   return (
     <div className="bg-white">
       <main className="container mx-auto py-16">
-        <h1 className="text-4xl font-bold text-center mb-8">CONTACT US</h1>
+        <h1 className="text-4xl font-bold text-center mb-8">CONTACT US ─────</h1>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2">
-            <img src={contactUs} alt="Image of a laptop and coffee cup" className="w-full h-full object-cover rounded-lg" />
+            <img src={assets.contact_img} alt="Image of a laptop and coffee cup" className="w-full h-full object-cover rounded-lg" />
           </div>
           <div className="md:w-1/2 ml-4">
             <h2 className="text-2xl font-bold mb-4">Our Store</h2>
@@ -24,7 +25,7 @@ function ContactUs() {
       </main>
       <Subscribe />
     </div>
-  );
-};
+  )
+}
 
-export default ContactUs;
+export default ContactUs

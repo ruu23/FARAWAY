@@ -1,0 +1,52 @@
+.section{
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.iconns{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  justify-content: space-between;
+  
+}
+/* .first{
+  justify-content: space-between;
+
+} */
+#second-icon{
+  margin: auto 150px;
+}
+.first img{
+  padding: 20px 115px;
+}
+
+.second{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.second h3{
+  font-size: x-large;
+}
+.second h4{
+  color: gray;
+}
+form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form input{
+  border: 1px solid rgba(138, 138, 138, 0.313);
+  padding: 15px 320px 15px 10px;
+  
+}
+form button{
+  background-color: black;
+  color: white;
+  padding: 16px 50px 16px 50px;
+}
+form button :hover{
+  border-color: rgba(138, 138, 138, 0.313);
+}

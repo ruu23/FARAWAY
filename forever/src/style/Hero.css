@@ -1,8 +1,8 @@
-.banner {
-  height: 75vh;
+.hero {
+  height: 73vh;
   display: flex;
   margin-top: 20px;
-  border: solid 1px #898383
+  border: solid 1px rgb(161, 161, 161)
 }
 .text-content{
   flex: 1;
@@ -17,7 +17,7 @@
 .text-content p {
   font-family: 'Outfit', sans-serif;
   font-weight: 500;
-  color: #555; /* Adjust color to match the design */
+  color: #555; 
   margin: 0;
   letter-spacing: 2px;
 }

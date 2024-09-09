@@ -1,0 +1,71 @@
+.collection {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: solid 1px rgba(138, 138, 138, 0.313);
+}
+
+.filter {
+  width: 250px;
+}
+
+.filter h1 {
+  font-size: 24px;
+}
+
+.category, .type {
+  border: solid 1px gray;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.category h2, .type h2 {
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.clothes {
+  flex-grow: 1;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clothes h1 {
+  font-size: 25px;
+}
+
+.clothes h1 span {
+  color: gray;
+}
+
+.sort select {
+  padding: 8px;
+  border: 1px solid gray;
+}
+
+.clothe {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 18px;
+}
+
+.clothe div {
+  text-align: left;
+  cursor: pointer;
+}
+
+.clothe img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.clothe p {
+  font-size: 14px;
+}
