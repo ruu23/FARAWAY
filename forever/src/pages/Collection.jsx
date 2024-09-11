@@ -13,19 +13,7 @@ function Collection() {
       .then(products => setProducts(products))
     },[])
 
-    const handelCategory = (e) => {
-      const {checked, value} = e.target
-      if(checked) {
-        setCategory([...category, value])
-      }else {
-        setCategory(category.filter((x) => x !== value))
-      }
-      const filteredProducts = products.filter((product) => {
-        const categoryMatch = category.length === 0 || category.includes(product.category)
-        const typeMatch = type.length === 0 || type.includes(product.type)
-        return categoryMatch && typeMatch
-      })
-    }
+    
   return (
     <div className='collection'>
 
@@ -34,9 +22,9 @@ function Collection() {
 
         <div className='category'>
           <h2>CATEGORIES</h2>
-          <p><input type='checkbox' value='Man' onChange={handelCategory}/>Men</p><br/>
-          <p><input type='checkbox' value='Woman' onChange={handelCategory}/>Women</p><br/>
-          <p><input type='checkbox' value='Kids' onChange={handelCategory}/>Kids</p>
+          <p><input type='checkbox' value='Man' />Men</p><br/>
+          <p><input type='checkbox' value='Woman' />Women</p><br/>
+          <p><input type='checkbox' value='Kids' />Kids</p>
         </div>
 
         <div className='type'>
