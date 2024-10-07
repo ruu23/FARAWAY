@@ -1,0 +1,1 @@
+Built a travel planning tool with CRUD functionality for managing trip itineraries.
