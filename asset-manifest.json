@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FARAWAY/static/css/main.9f47ccab.css",
+    "main.js": "/FARAWAY/static/js/main.85ff553d.js",
+    "static/js/453.b9b4a01c.chunk.js": "/FARAWAY/static/js/453.b9b4a01c.chunk.js",
+    "index.html": "/FARAWAY/index.html",
+    "main.9f47ccab.css.map": "/FARAWAY/static/css/main.9f47ccab.css.map",
+    "main.85ff553d.js.map": "/FARAWAY/static/js/main.85ff553d.js.map",
+    "453.b9b4a01c.chunk.js.map": "/FARAWAY/static/js/453.b9b4a01c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f47ccab.css",
+    "static/js/main.85ff553d.js"
+  ]
+}
