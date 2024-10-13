@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.far-away-title {
+  font-family: 'Monoton', cursive;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
