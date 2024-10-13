@@ -57,7 +57,7 @@ function App() {
       <div className="input-section">
         <label>What do you need for your 😍 trip?</label>
         <select value={quantity} onChange={(e) => setQuantity(e.target.value)}>
-          {[...Array(10).keys()].map((num) => (
+          {[...Array(20).keys()].map((num) => (
             <option key={num + 1} value={num + 1}>
               {num + 1}
             </option>
